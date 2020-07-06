@@ -1,0 +1,17 @@
+{
+    "name": "fmt/inpsyde-plugin-task",
+    "description": "inpsyde plugin task / wordpress /php",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Ayham Taweel",
+            "email": "kingfawst2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {} ,
+    "autoload": {
+        "psr-4":{"Inc\\": "inc/"}
+    }
+}

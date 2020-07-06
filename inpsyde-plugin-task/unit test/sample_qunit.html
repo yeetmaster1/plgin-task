@@ -1,0 +1,33 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>QUnit test pannel</title>
+      <link rel = "stylesheet" href = "https://code.jquery.com/qunit/qunit-1.22.0.css">
+      <script src = "https://code.jquery.com/qunit/qunit-1.22.0.js"></script>
+   </head>
+   
+   <body>
+      <div id = "qunit"></div>
+      <div id = "qunit-fixture"></div> 
+      <script>
+         QUnit.test( "My First Test", function( assert ) {
+           let data = ['array'];
+            console.log(data)
+                    console.log(y);
+                    var sizearr = data.length;
+                    console.log(sizearr);
+                    $('.sh1').empty();
+                    $('.show').hide();
+                    $('.sh1').append('<a class="show">'+data[y]['id']+'</a>');
+                    $('.tl1').append('<p class="show">'+data[y]['name']+'</p>');
+                    $('.usn1').append('<p class="show">'+data[y]['username']+'</p>');
+                    $('.em1').append('<p class="show">'+data[y]['email']+'<p>');
+                    y++;
+                if(y >= sizearr){
+                    return y = 0;
+                }    
+            assert.equal( [], "error", "Value should be error" );
+         });
+      </script>
+   </body>
+</html>
