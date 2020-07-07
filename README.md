@@ -37,7 +37,7 @@ The software used for the **Automated Testing** was Qunit.
 [references used](http://web.mit.edu/6.005/www/fa16/classes/03-testing/#reading_3_testing)
 
 ## Thinking process 
-As for the design the task was done in, there was not much design put into it as in the task request it was made clear that simple, high quilty code is key, and i didn't want to spend much time on it.
+As for the design the task was done in, there was not much design put into it as in the task request it was made clear that simple, high quilty code is key, and i didn't want to spend much time on the design.
 for the plugin code it self I aslo tried to follow the same quote "simple, high quality" so i made it as simple as possible whilst adhering to the list of requirements as well as trying to make it responsive.
 
 
