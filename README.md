@@ -24,7 +24,7 @@ The plugin has initially the required criteria with some changes as **discussed*
 
 ## Reasons for changes
 1. it was discussed via Email, whether it was ok to do it on an admin menu page rather then the front-end as this type of info should only be accessible by the owners of the site and not any vistor and the answer i got via Email was as follows and i quote 
-***Your choice. Create a menu page or a front end page. On the idea, we were more inside the idea to get a page on front end to list the users*** 
+***"Your choice. Create a menu page or a front end page. On the idea, we were more inside the idea to get a page on front end to list the users"*** 
 and therefore i have decided to do the better option. 
 
 2. Security, I belive that it should be a habit to always try and not leak or leave important info on the front-end where malicious actor could use said info in a bad way, even if it is just a sample test i still belive that a programmer must always think of the security of said info  
