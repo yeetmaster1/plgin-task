@@ -7,14 +7,9 @@ Plugin Name: inpsyde-plugin-task
 Description: this is my first attempt at writing the inpsyde task plugin
 Version: 1.0.0
 Author: Ayham Taweel
-License: GPLv2 or later
+License: MIT 
 Text Domain: Ayham-plugin-task
 */
-/**
- * check license at link below
- * https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
- * 
- */
 /**
  * Http caching
  * @var date
@@ -61,16 +56,16 @@ class TaskPlugin
 {
  public $name;
 
-    function enqueue(){
-        Enqueue::enqueue();
-    }
+ function enqueue(){
+  Enqueue::enqueue();
+ }
 
 
     
 
  function __construct() {
-        $this->name = plugin_basename( __FILE__ );
-    }
+  $this->name = plugin_basename( __FILE__ );
+ }
 
  function activate(){
     Activate::activate();
@@ -102,13 +97,8 @@ class TaskPlugin
 
   
  function register(){
-   
-	
-	
-
-    add_action( 'admin_menu', array($this, 'add_admin_page') );
-
-    add_filter( "plugin_action_links_$this->name" , array($this , 'settings_link'));
+   add_action( 'admin_menu', array($this, 'add_admin_page') );
+   add_filter( "plugin_action_links_$this->name" , array($this , 'settings_link'));
  }
 
 }
