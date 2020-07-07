@@ -31,7 +31,8 @@ and therefore i have decided to do the better option.
 
 ## Unit Testing
 As discussed via Email the unit testing was done for demonstrative purposes and as aresult one sample unit test was done.
-The software used for the **Automated Testing** was Qunit 
+
+The software used for the **Automated Testing** was Qunit. 
 
 ## Thinking process 
 As for the design the task was done in, there was not much design put into it as in the task request it was made clear that simple, high quilty code is key, and i didn't want to spend much time on it.
