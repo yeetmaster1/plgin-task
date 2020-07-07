@@ -33,9 +33,9 @@ $(document).ready(function(){
 				
 				
                     var sizearr = data.length;
-                    console.log(sizearr);
+                    
                     $('.sh1').empty();
-                    $('.show').hide();
+                    $('.show').empty();
                     $('.sh1').append('<a class="show">'+data[y]['id']+'</a>');
                     $('.tl1').append('<p class="show">'+data[y]['name']+'</p>');
                     $('.usn1').append('<p class="show">'+data[y]['username']+'</p>');
