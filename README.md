@@ -30,7 +30,7 @@ and therefore i have decided to do the better option.
 2. Security, I belive that it should be a habit to always try and not leak or leave important info on the front-end where malicious actor could use said info in a bad way, even if it is just a sample test i still belive that a programmer must always think of the security of said info  
 
 ## Unit Testing
-As discussed via Email the unit testing was done for demonstrative purposes and as aresult one sample unit test was done.
+As discussed via Email the unit testing was done for demonstrative purposes and as a result one sample unit test was done.
 
 The software used for the **Automated Testing** was Qunit.
 
