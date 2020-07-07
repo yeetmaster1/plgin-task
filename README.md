@@ -1,6 +1,6 @@
 # plugin Task
 
-Foobar is a Python library for dealing with word pluralization.
+This is the task required from me as a result of applying to a job at inpsyde.
 
 ## Installation
 
