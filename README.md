@@ -20,7 +20,7 @@ The plugin has initially the required criteria with some changes as **discussed*
 3. [bootstrap](https://www.bootstrapcdn.com/)
 ## changes 
  **(The reasoning behind all changes are listed blow.)**
-1. The plugin does not output user info on the front-end but outputs them to an admin menu page meaning there is no custom endpoint.
+1. The plugin does not output user info on the front-end but outputs them to an admin menu page.
 
 ## Reasons for changes
 1. it was discussed via Email, whether it was ok to do it on an admin menu page rather then the front-end as this type of info should only be accessible by the owners of the site and not any vistor and the answer i got via Email was as follows and i quote 
