@@ -15,9 +15,9 @@ The plugin has initially the required criteria with some changes as **discussed*
 
 ## Extra Dependencies used 
 **All Extra Dependencies used were in a cdn format to ease the reviewing of the code**
-1. JQuery
-2. Qunit
-3. bootstrap
+1. [JQuery](https://jquery.com/)
+2. [Qunit](https://qunitjs.com/?__cf_chl_jschl_tk__=dae19ecec5b9d451f4d6f65f429ed89f0dc14050-1594023545-0-AT2ipQbqmUpnzts7rdagLWKLLOeql0wVT5Te0jvs2BgogR6q1LRTM0V7Be3-PRq0UasCRQRMvEkn4ZDZ8wYgksscXDEMjQ7WufrC79HtoG_8NA4qgD8lzSqFFcuC0BEUza1JpwCt6XHxW_8nkrueQ6o1P_2aFP86r8lf45wgWoCTSPEgn9JJ81Q2VpXoadijQ8BGc3DmZ9LoRV5WeMftCaJezL49MahZesZk-xnT2Q6IE524OlclXl189fE4Dv0-8ChEPSxd1QAC3Mnh6bZ3TPo)
+3. [bootstrap](https://www.bootstrapcdn.com/)
 ## changes 
  **(The reasoning behind all changes are listed blow.)**
 1. The plugin does not output user info on the front-end but outputs them to an admin menu page meaning there is no custom endpoint.
